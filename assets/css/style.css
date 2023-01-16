@@ -1,0 +1,172 @@
+.menu-donate-text{
+  background-color: #27AE60;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+ 
+
+
+.flex-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+
+.margin-top-menu{
+  margin-left: 105px !important;
+}
+
+.bg-top-nav{
+  background: #27AE60;
+  padding: px;
+}
+
+.navbar{
+  padding: 30px;
+} 
+
+.donate-text{
+  font-size: 16px;
+  line-height:px;
+  color: #fff;
+  font-family: 'poppins';
+}
+
+.nav-link:hover {
+color: #EC8E11;
+}
+.hero-play-btn{
+  padding-bottom: 150px !important;
+}
+.nav-item a {
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.hero{
+  padding-top: 250px;
+  background: #D9D9D9;
+}
+
+.hero-left-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #27AE60;
+}
+
+.hero-left-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 60px;
+}
+
+.hero-line{
+  border: solid 2px orange;
+  width: 10%;
+}
+.hero-donate-text{
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.hero-down-bg-left{
+  background: #F5F5F5;
+  max-height: 370px;
+}
+
+.hero-down{
+  z-index: 99;
+  position: relative;
+  bottom: 40px;
+}
+
+.hero-down-border{
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+}
+.hero-down-mid{
+  background: orange;
+}
+
+.hero-down-line-mid{
+  border: solid 1px green;
+  width: 10%;
+}
+
+.hero-down-text{
+  background-color: green;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.hero-down-right{
+  background: green;
+}
+
+.hero-down-line-right{
+  border: solid 1px orange;
+  width: 10%;
+}
+
+
+.hero-down-text-right{
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.hero-down-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+}
+
+.box-shadow-we{
+box-shadow: 0px 10px 40px rgba(41, 41, 41, 0.1);
+border-radius: 10px;
+}
+
+.what-we-do{
+  padding-top: 90px;
+}
+
+.we-right-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+color:#27AE60
+}
+
+.we-right-text{
+  font-family: 'poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+}
+
+.we-line{
+  border: solid 2px orange;
+  width: 10%;
+}
+
+.we-icon-w{
+  margin-top: 10px;
+  padding-right: 15px;
+  width: 50px !important;
+  max-height: 40px !important;
+}
