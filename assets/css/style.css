@@ -359,3 +359,60 @@ bottom: -100px;
   z-index: -1
   ;
 }
+
+.testimonials{
+  padding-top: 350px;
+}
+
+.testimonials-line{
+  border: solid 2px orange;
+  width: 5%;
+}
+
+.testimo-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #27AE60;
+}
+
+.testimo-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #292929;
+}
+
+.testimo-stars{
+max-width: 115px !important;
+max-height: 14px; 
+padding-left: 15px;
+}
+
+.testimo-img-border{
+  border-radius: 30px;
+}
+
+.testimo-peo-name{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+
+color: #292929;
+}
+
+.testimo-peo-text{
+  ont-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+padding-bottom: 15px;
+color: #27AE60;
+}
