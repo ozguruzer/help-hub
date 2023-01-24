@@ -781,18 +781,185 @@ color: #FFFFFF;
 }
 
 .our-team-left-bg{
-  background-image: url("/assets/img/our-team-box.png");
-  background-position: right;
-  background-repeat: no-repeat;
-  background-position-y: top;
-  background-color: #27AE60;  
+background-image: url("/assets/img/our-team-box.png");
+background-position: right;
+background-repeat: no-repeat;
+background-position-y: top;
+background-color: #27AE60;  
 }
 
 .our-team-bg-box-1{
-  background-color: #D9D9D9;
+background-color: #D9D9D9;
 }
 
 .box-width-our-team{
 width: 612px !important;
 right: 12px;
+}
+
+.cau-page-sup{
+background: #292929;
+}
+
+.cau-page-sup-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #27AE60;
+}
+
+.cau-page-sup-title-2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+color: #FFFFFF;
+}
+
+.cau-page-sup-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #F5F5F5;
+}
+
+.cau-page-donation-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 32px;
+color: #292929;
+}
+
+.cau-page-donation-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #555555;
+}
+
+.cau-page-donation-p{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #292929;
+}
+
+.cau-page-donation-input{
+border-radius: 5px;
+}
+
+.cau-page-btn{
+background: #EC8E11;
+border-radius: 5px;
+}
+
+.cau-page-donation{
+background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(41, 41, 41, 0.1);
+border-radius: 10px;
+}
+
+.contact-us-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #27AE60;
+}
+
+.contact-touch-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+color: #292929;
+}
+
+.contact-us-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+color: #555555;
+
+}
+
+.contact-line{
+  border: solid 2px orange;
+width: 12%;
+}
+
+.contact-form-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 27px;
+line-height: 32px;
+color: #292929;
+}
+
+.contact-input-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+display: flex;
+color: #292929;
+}
+
+.contact-input-border{
+  border: 1px solid #DDDDDD;
+border-radius: 5px;
+}
+
+.input-msg-padding{
+  padding: 70px 140px;
+}
+
+
+.contact-input-shadow{
+background: #FFFFFF;
+box-shadow: 0px 10px 40px rgba(41, 41, 41, 0.1);
+border-radius: 11px !important;
+padding: 130px;
+}
+
+
+.contact-btn{
+background: #EC8E11;
+border-radius: 5px;
+width: 75%;
+}
+
+.contact-form-position{
+  position: relative;
+  top: 50px;
+  z-index: 1;
+}
+
+.contact-form-down-bg{
+  z-index: -99 !important;
+}
+
+.bg-contact{
+  background: #D9D9D9;
+  height: 500px;
+z-index: -99;
 }
