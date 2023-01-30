@@ -1002,7 +1002,7 @@ text-align: center;
 color: #555555;
 }
 
-.faq-list-green{
+.faq-list-green{6
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
@@ -1081,4 +1081,277 @@ color: #FFFFFF;
   background-color: #292929;
   padding: 130px;
   margin-top: 150px;
+}
+
+
+.about-slider{
+  padding-top: 240px;
+}
+
+.about-slider-bg{
+position: relative;
+}
+
+.position-slider-ball{
+position: absolute;
+top: 0;
+right: 0;
+right: 173px;
+top: -50px;
+margin: auto;
+}
+
+.about-slider-world{
+  position: absolute;
+  top: 0;
+  left: 0;
+  left: -120px;
+  top: -50px;
+  z-index: -1;
+  margin: auto;
+}
+
+.about-slider-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  bottom: -33px;
+  left: -125px;
+  margin: auto;
+}
+
+
+.about-slider-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #27AE60;
+}
+
+.about-slider-right-line{
+border: 1px solid orange;
+width: 5%;
+  }
+
+.about-slider-title-down{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+color: #292929;
+}
+
+.slider-icons-left-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+color: #292929;
+}
+
+.about-help-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #27AE60;
+}
+
+.about-help-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #292929;
+}
+
+.about-help-is{
+  margin-top: 250px;
+padding: 150px;
+  background: #D9D9D9;
+  background-image: url(/assets/img/icons/about-help-mask.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bg-help-card{
+  background: #D9D9D9;
+}
+
+
+.about-help-mask-oval{
+  position: absolute;
+  right: 0;
+  top: 0;
+  top: -60px;
+  right: 270px;
+}
+
+.help-is-box-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #292929;
+}
+
+.help-is-shadow{
+  box-shadow: 0px 10px 40px rgba(41, 41, 41, 0.1);
+border-radius: 10px;
+}
+
+.about-our-team-col-bg{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  background-image: url(/assets/img/better-world-element.png) ;
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 110px;
+  padding: 50px;
+  display: flex;
+}
+
+.our-team-about{
+  padding-top: 100px;
+}
+
+.about-facts-title{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #27AE60;
+}
+
+.about-facts-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+text-align: center;
+color: #292929;
+}
+
+.about-us-facts{
+  padding-top: 250px;
+}
+
+.facts-card-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+text-align: center;
+color: #292929;
+}
+
+.about-volunteering{
+  padding-top: 250px;
+}
+
+.vol-big-img{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+margin: auto;
+bottom: -350px;
+left: 50px;
+}
+
+.about-vol-left-img{
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.vol-ball-img{
+  position: absolute;
+  border-radius: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  left: -300px;
+  top: 350px;
+}
+
+.vol-small-img{
+  position: relative;
+  top: 0;
+margin: auto;
+}
+
+.about-vol-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #27AE60;
+}
+
+.about-vol-text{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+color: #292929;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+.top-nav{
+  display: none;
+}
+
+.about-slider-right-text{
+  padding-top: 160px;
+}
 }
