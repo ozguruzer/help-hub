@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Help Hub</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
@@ -65,7 +67,8 @@
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-lg-flex align-content-center justify-content-center" id="navbarNavDropdown">
+      <div class="collapse navbar-collapse d-lg-flex align-content-center justify-content-center"
+        id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -146,14 +149,14 @@
               </div>
             </div>
             <div class="hero-play-btn">
-              <img src="assets/img/icons/play.png" alt="">
+              <img src="assets/img/icons/play.png" class="img-fluid" alt="">
             </div>
           </div>
         </div>
         <div class="col-lg-6"></div>
       </div>
     </div>
-  </section> 
+  </section>
 
   <section class="hero-down">
     <div class="container-fluid">
@@ -169,7 +172,7 @@
             blandit <br> volutpat maecenas.</p>
           <div class="hero-down-text h-25 w-50">
             <div class="d-flex align-items-center btn menu-donate">
-              <h5 class="donate-text mt-1 text-nowrap">Be Volunteer</h5>
+              <h5 class="donate-text mt-1 ">Be Volunteer</h5>
               <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px" height="10px" alt="">
             </div>
           </div>
@@ -182,7 +185,7 @@
             quisque. Posuere urna nec <br> tincidunt praesent.</p>
           <div class="hero-down-text-right h-25 w-50">
             <div class="d-flex align-items-center btn menu-donate">
-              <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+              <h5 class="donate-text mt-1">Donate Now </h5>
               <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px" height="10px" alt="">
             </div>
           </div>
@@ -200,10 +203,10 @@
         <div class="col-lg-5">
           <div class="what-we-right box-shadow-we p-5">
             <h5 class="we-right-title">What We Do</h5>
-            <p class="we-right-text text-nowrap">Small Donations Make Big <br> Impact on Someone’s <br> Life, Act Today!
+            <p class="we-right-text">Small Donations Make Big <br> Impact on Someone’s <br> Life, Act Today!
             </p>
             <div class="we-line mb-2"></div>
-            <p class="we-right-text-down text-nowrap">Cras sed felis eget velit aliquet sagittis id consectetur purus.
+            <p class="we-right-text-down ">Cras sed felis eget velit aliquet sagittis id consectetur purus.
               <br> Volutpat commodo sed egestas egestas.
             </p>
 
@@ -212,14 +215,14 @@
                 <img src="assets/img/icons/shelter.png" class="img-fluid we-icon-w" alt="">
                 <div class="flex-column">
                   <h5 class="fw-bold">Home Shelter</h5>
-                  <p class="text-nowrap">Quisque egestas arcu </p>
+                  <p class="">Quisque egestas arcu </p>
                 </div>
               </div>
               <div class="d-flex">
                 <img src="assets/img/icons/food.png" class="img-fluid we-icon-w" alt="">
                 <div class="flex-column">
                   <h5 class="fw-bold">Water & Food</h5>
-                  <p class="text-nowrap">Vitae purus faucibus</p>
+                  <p class="">Vitae purus faucibus</p>
                 </div>
               </div>
             </div>
@@ -229,14 +232,14 @@
                   <img src="assets/img/icons/nature.png" class="img-fluid we-icon-w" alt="">
                   <div class="flex-column">
                     <h5 class="fw-bold">Save Nature</h5>
-                    <p class="text-nowrap">Mattis rhoncus urna </p>
+                    <p class="">Mattis rhoncus urna </p>
                   </div>
                 </div>
                 <div class="d-flex">
                   <img src="assets/img/icons/medicine.png" class="img-fluid we-icon-w" alt="">
                   <div class="flex-column">
                     <h5 class="fw-bold">Medicine</h5>
-                    <p class="text-nowrap">Morbi quis commodo</p>
+                    <p class="">Morbi quis commodo</p>
                   </div>
                 </div>
               </div>
@@ -287,71 +290,176 @@
           <div class="we-line causes-line-margin"></div>
         </div>
         <div class="swiper mt-5 pt-5 cauSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide cause-swiper">
-              <div class="card">
-                <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
-                <div class="swiper-category-img">
-                  <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
-                  <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
-                    neque egestas <br> congue quisque egestas diam.</p>
-                  <div class="hero-down-text-right h-25 ">
-                    <div class="d-flex align-items-center justify-content-center btn menu-donate">
-                      <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
-                      <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px" height="10px"
-                        alt="">
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 ">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card">
+                  <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
+                  <div class="swiper-category-img">
+                    <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
+                    <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
+                      neque egestas <br> congue quisque egestas diam.</p>
+                    <div class="hero-down-text-right h-25 ">
+                      <div class="d-flex align-items-center justify-content-center btn menu-donate">
+                        <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
+                        <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px"
+                          height="10px" alt="">
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="swiper-slide cause-swiper">
-              <div class="card">
-                <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
-                <div class="swiper-category-img">
-                  <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
-                  <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
-                    neque egestas <br> congue quisque egestas diam.</p>
-                  <div class="hero-down-text-right h-25 ">
-                    <div class="d-flex align-items-center justify-content-center btn menu-donate">
-                      <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
-                      <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px" height="10px"
-                        alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="swiper-control">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
             </div>
-            <div class="swiper-slide cause-swiper">
-              <div class="card">
-                <img src="assets/img/cau-card.png" class="card-img-top position-relative" alt="...">
-                <div class="swiper-category-img">
-                  <img src="assets/img/category.png" class="img-fluid" alt="" srcset="">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Plant Tree, Save Earth & Lives Secure the Future</h5>
-                  <p class="card-text">Massa sed elementum tempus egestas sed sed <br> risus pretium quam. Bibendum
-                    neque egestas <br> congue quisque egestas diam.</p>
-                  <div class="hero-down-text-right h-25 ">
-                    <div class="d-flex align-items-center justify-content-center btn menu-donate">
-                      <h5 class="donate-text mt-1 text-nowrap">Donate Now </h5>
-                      <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mb-1" width="16px" height="10px"
-                        alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
           </div>
+
         </div>
       </div>
     </div>
@@ -389,8 +497,6 @@
     </div>
   </section>
 
-  
-
   <section class="testimonials">
     <div class="container">
       <div class="row">
@@ -402,6 +508,7 @@
             <div class="testimonials-line mb-4"></div>
           </div>
           <div class="swiper mt-5 pt-5 cauSwiper">
+            <div class="swiper-container">
             <div class="swiper-wrapper">
               <div class="swiper-slide cause-swiper">
                 <div class="card p-2">
@@ -472,8 +579,80 @@
                   </div>
                 </div>
               </div>
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card p-2">
+                  <img src="assets/img/icons/stars.png" class="card-img-top img-fluid testimo-stars" alt="...">
+                  <div class="swiper-category-img">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Donec ac odio tempor orci dapibus ultrices <br>
+                      in iaculis nunc. Facilisis magna etiam <br>
+                      tempor orci eu lobortis. Faucibus interdum <br>
+                      posuere lorem ipsum.</p>
+                    <div class="d-flex align-items-center">
+                      <div class="testimo-people-img">
+                        <img src="assets/img/icons/testimo-people.png" class="img-fluid testimo-img-border me-3 "
+                          alt="">
+                      </div>
+                      <div class="testimo-people-text pt-4">
+                        <h5 class="testimo-peo-name">Leslie Johnson</h5>
+                        <p class="testimo-peo-text">Volunteer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card p-2">
+                  <img src="assets/img/icons/stars.png" class="card-img-top img-fluid testimo-stars" alt="...">
+                  <div class="swiper-category-img">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Donec ac odio tempor orci dapibus ultrices <br>
+                      in iaculis nunc. Facilisis magna etiam <br>
+                      tempor orci eu lobortis. Faucibus interdum <br>
+                      posuere lorem ipsum.</p>
+                    <div class="d-flex align-items-center">
+                      <div class="testimo-people-img">
+                        <img src="assets/img/icons/testimo-people.png" class="img-fluid testimo-img-border me-3 "
+                          alt="">
+                      </div>
+                      <div class="testimo-people-text pt-4">
+                        <h5 class="testimo-peo-name">Leslie Johnson</h5>
+                        <p class="testimo-peo-text">Volunteer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide cause-swiper">
+                <div class="card p-2">
+                  <img src="assets/img/icons/stars.png" class="card-img-top img-fluid testimo-stars" alt="...">
+                  <div class="swiper-category-img">
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Donec ac odio tempor orci dapibus ultrices <br>
+                      in iaculis nunc. Facilisis magna etiam <br>
+                      tempor orci eu lobortis. Faucibus interdum <br>
+                      posuere lorem ipsum.</p>
+                    <div class="d-flex align-items-center">
+                      <div class="testimo-people-img">
+                        <img src="assets/img/icons/testimo-people.png" class="img-fluid testimo-img-border me-3 "
+                          alt="">
+                      </div>
+                      <div class="testimo-people-text pt-4">
+                        <h5 class="testimo-peo-name">Leslie Johnson</h5>
+                        <p class="testimo-peo-text">Volunteer</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="swiper-control">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
@@ -485,20 +664,24 @@
   <section class="better-world ">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 better-bg-col  shadow">
-          <p class="better-world-title">Act Now for a Better World</p>
-          <div class="better-text-btn d-flex justify-content-between">
-            <p class="better-world-text">Solutions to Help People in Need <br>
-              and Save the Planet</p>
-            <div class="our-team-btn ">
+        <div class="better-bg-col shadow d-lg-flex ">
+          <div class="col-lg-9">
+            <p class="better-world-title">Act Now for a Better World</p>
+            <div class="better-text-btn d-flex justify-content-between">
+              <p class="better-world-text">Solutions to Help People in Need <br>
+                and Save the Planet</p>
+            </div>
+            <div class="better-world-line mt-4"></div>
+          </div>
+          <div class="col-lg-3 pt-3">
+            <div class="our-team-btn better-world-btn">
               <div class="d-flex align-items-center justify-content-center btn">
-                <h5 class="donate-text pt-3 text-nowrap">Donate Now</h5>
+                <h5 class="donate-text pt-3 ">Donate Now</h5>
                 <img src="assets/img/icons/menu-heart.png" class="img-fluid ms-2 mt-2" width="16px" height="10px"
                   alt="">
               </div>
             </div>
           </div>
-          <div class="better-world-line mt-4"></div>
         </div>
         <div class="col-lg-3 better-flex-down">
           <h5 class="better-world-down-title pb-2">20M</h5>
@@ -537,7 +720,7 @@
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner pt-5">
               <div class="carousel-item active">
-                <img src="assets/img/experince-slider.png" class="d-block w-100" alt="...">
+                <img src="assets/img/experince-slider.png" class="img-fluid d-block w-100" alt="...">
               </div>
             </div>
           </div>
@@ -561,19 +744,20 @@
               vitae purus faucibus ornare suspendisse sed nisi lacus sed.</p>
           </div>
         </div>
-        <div class="col-lg-5 pt-5">
+        <div class="col-lg-5 pt-5 col-sm-12 ">
           <div class="container">
             <div class="row">
-              <div class="experince-right-box">
+              <div class="experince-right-box mx-sm-auto">
                 <div class="col-lg-4 pb-2">
                   <div class="experince-left-box d-flex">
                     <img src="assets/img/experince-box.png" class="img-fluid experince-box-border" alt="">
                     <div class="experince-right-box pe-5">
-                      <div class="slider-down-experince-date d-flex  pe-5 align-content-center align-items-center">
+                      <div class="slider-down-experince-date d-flex   align-content-center align-items-center">
                         <img src="assets/img/icons/experince-date.png" class="img-fluid experince-icons" alt="">
-                        <p class="experince-date-text  text-nowrap pt-3 right-box-text-padding ">September 15, 2022</p>
+                        <p class="experince-date-text  pt-3 right-box-text-padding ">September 15, 2022</p>
                       </div>
-                      <p class="experince-right-box-title">The Largest <br> Contribution of a Non-Profit Organization to Humanity</p>
+                      <p class="experince-right-box-title">The Largest <br> Contribution of a Non-Profit Organization to
+                        Humanity</p>
                     </div>
                   </div>
                 </div>
@@ -581,9 +765,9 @@
                   <div class="experince-left-box d-flex">
                     <img src="assets/img/experince-box.png" class="img-fluid experince-box-border" alt="">
                     <div class="experince-right-box pe-5">
-                      <div class="slider-down-experince-date d-flex  pe-5 align-content-center align-items-center">
+                      <div class="slider-down-experince-date d-flex  align-content-center align-items-center">
                         <img src="assets/img/icons/experince-date.png" class="img-fluid experince-icons" alt="">
-                        <p class="experince-date-text  text-nowrap pt-3 right-box-text-padding ">September 15, 2022</p>
+                        <p class="experince-date-text   pt-3 right-box-text-padding ">September 15, 2022</p>
                       </div>
                       <p class="experince-right-box-title">HelpHub Provides an Increase in the Level of Education</p>
                     </div>
@@ -593,9 +777,9 @@
                   <div class="experince-left-box d-flex">
                     <img src="assets/img/experince-box.png" class="img-fluid experince-box-border" alt="">
                     <div class="experince-right-box pe-5">
-                      <div class="slider-down-experince-date d-flex  pe-5 align-content-center align-items-center">
+                      <div class="slider-down-experince-date d-flex   align-content-center align-items-center">
                         <img src="assets/img/icons/experince-date.png" class="img-fluid experince-icons" alt="">
-                        <p class="experince-date-text  text-nowrap pt-3 right-box-text-padding ">September 15, 2022</p>
+                        <p class="experince-date-text  pt-3 right-box-text-padding ">September 15, 2022</p>
                       </div>
                       <p class="experince-right-box-title">Volunteering and its Surprising Benefits</p>
                     </div>
@@ -614,26 +798,26 @@
         <div class="col-lg-4">
           <img src="assets/img/Logo.svg" class="img-fluid pb-3" alt="">
           <p>Porttitor eget dolor morbi non arcu risus quis. <br>
-             Morbi tristique senectus et netus et <br>
-              malesuada fames. Montes nascetur ridiculus <br>
-               mus mauris. Sollicitudin tempor id eu nisl. <br>
-                Massa enim nec dui nunc mattis.</p>
-                <div class="footer-social d-flex">
-                  <ul class="list-unstyled d-flex align-items-center">
-                    <li>
-                      <img src="assets/img/icons/footer-twitter.png" class="img-fluid pe-3" alt="">
-                    </li>
-                    <li>
-                      <img src="assets/img/icons/footer-instagram.png" class="img-fluid pe-3" alt="">
-                    </li>
-                    <li>
-                      <img src="assets/img/icons/footer-facebook.png" class="img-fluid pe-3" alt="">
-                    </li>
-                    <li>
-                      <img src="assets/img/icons/footer-youtube.png" class="img-fluid pe-3" alt="">
-                    </li>
-                  </ul>
-                </div>
+            Morbi tristique senectus et netus et <br>
+            malesuada fames. Montes nascetur ridiculus <br>
+            mus mauris. Sollicitudin tempor id eu nisl. <br>
+            Massa enim nec dui nunc mattis.</p>
+          <div class="footer-social d-flex">
+            <ul class="list-unstyled d-flex align-items-center">
+              <li>
+                <img src="assets/img/icons/footer-twitter.png" class="img-fluid pe-3" alt="">
+              </li>
+              <li>
+                <img src="assets/img/icons/footer-instagram.png" class="img-fluid pe-3" alt="">
+              </li>
+              <li>
+                <img src="assets/img/icons/footer-facebook.png" class="img-fluid pe-3" alt="">
+              </li>
+              <li>
+                <img src="assets/img/icons/footer-youtube.png" class="img-fluid pe-3" alt="">
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="col-lg-2">
           <ul class="list-unstyled">
@@ -652,7 +836,7 @@
                 <img src="assets/img/icons/footer-phone.png" class="img-fluid footer-soci-phone me-1" alt="">
                 <div class="footer-links">
                   <h5 class="footer-soci-text">+1-206-156 2849</h5>
-                   <h5 class="footer-soci-text">+1-333-205 0133</h5>
+                  <h5 class="footer-soci-text">+1-333-205 0133</h5>
                 </div>
               </div>
             </li>
@@ -661,7 +845,7 @@
                 <img src="assets/img/icons/footer-mail.png" class="img-fluid footer-soci-phone me-1" alt="">
                 <div class="footer-links">
                   <h5 class="footer-soci-text">info@helphub.com</h5>
-                   <h5 class="footer-soci-text">support@help.com</h5>
+                  <h5 class="footer-soci-text">support@help.com</h5>
                 </div>
               </div>
             </li>
@@ -670,16 +854,17 @@
                 <img src="assets/img/icons/footer-location.png" class="img-fluid footer-soci-phone me-1" alt="">
                 <div class="footer-links">
                   <h5 class="footer-soci-text">2464 Royal Ln. <br>
-                     Mesa, New Jersey</h5>
+                    Mesa, New Jersey</h5>
                 </div>
               </div>
             </li>
           </ul>
         </div>
+
         <div class="col-lg-4">
           <h5 class="footer-form-title">Subscribe to Our Newsletter</h5>
           <p class="footer-form-down-text">Nulla at volutpat diam ut venenatis tellus in metus <br>
-             vulputate. Turpis in eu mi bibendum.</p>
+            vulputate. Turpis in eu mi bibendum.</p>
           <div class="footer-form d-flex">
             <form action="" placeholder="Enter Email">
               <input type="text" class="p-2 footer-input-border" placeholder="Enter Email"><br>
@@ -693,7 +878,7 @@
   <section class="ft-bt mt-5 pt-5">
     <div class="col-lg-12">
       <div class="d-flex justify-content-center align-content-center ft-bottom-bg p-3">
-        <h5 class="footer-bottom-text" >Merkulove © 2022 HelpHub Template. All Rights Reserved.</h5>
+        <h5 class="footer-bottom-text">Merkulove © 2022 HelpHub Template. All Rights Reserved.</h5>
       </div>
     </div>
   </section>

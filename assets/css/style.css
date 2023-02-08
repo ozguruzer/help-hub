@@ -225,18 +225,7 @@ line-height: 30px;
 }
 
 .cauSwiper{
-display: -webkit-box;
-display: -ms-flexbox;
-display: -webkit-flex;
-display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
--webkit-justify-content: center;
-justify-content: center;
--webkit-box-align: center;
--ms-flex-align: center;
--webkit-align-items: center;
-align-items: center;
+width: 100%;
 }
 
 
@@ -1316,6 +1305,28 @@ line-height: 46px;
 color: #292929;
 }
 
+.about-facts-text{
+  scale: 10(50%);
+}
+
+.swiper-wrapper{
+  padding-bottom: 50px;
+ 
+
+}.swiper-control{ 
+padding-right: 470px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: orange !important;
+  width: 20px;
+  height: 20px;
+  transform: scale(.5);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  opacity: 1;
+  transform: scale(1);  
+}
 
 
 
@@ -1330,6 +1341,16 @@ color: #292929;
 
 
 
+@media screen and (max-width: 1500px) {
+
+  .donate-text{
+    font-size: 10px;
+  }
+  .our-team-element{
+    display: none;
+  }
+  
+ }
 
 
 
@@ -1351,7 +1372,101 @@ color: #292929;
   display: none;
 }
 
+.stand-uk-text{
+  font-size: 0.5rem;
+}
+
+.grey-bg{
+ display: none;
+}
 .about-slider-right-text{
   padding-top: 160px;
 }
+.better-bg-col{
+  width: 100%;
 }
+.better-world-title{
+  font-size: 1rem;
+}
+.better-world-text{
+  font-size: 1rem;
+}
+
+.hero-down-bg-left{
+  display: none;
+}
+
+.experince-right-box-title{
+  font-size: 1rem;
+}
+
+.menu-donate-text{
+  display: none;
+}
+
+.donate-text{
+  font-size: 10px;
+}
+.contact-inputs{
+  flex-direction: column;
+}
+
+.contact-form-width input{
+  width: 100%;
+}
+
+.contact-us-title{
+  padding-top: 100px;
+}
+
+.experince-right-box-title{
+  font-size: 10px;
+}
+
+.experince-left-box{
+  padding-right: -130px;
+}
+
+
+
+.better-world-btn{
+  display: none;
+}
+
+.faq-contact{
+  flex-direction: column;
+}
+
+.hero-play-btn{
+  padding-top: 30px;
+}
+
+.our-team-element{
+  display: none;
+}
+
+.vol-big-img{
+  display: none;
+}
+
+.mobile-our-team-ball{
+  padding-top: 50px;
+}
+
+.faq-btn-mobile{
+  margin-bottom: 13px;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .swiper-control {
+    display: none;
+  }
+
+  .better-bg-col{
+    padding: 5px;
+  }
+ }
