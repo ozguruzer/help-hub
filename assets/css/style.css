@@ -1513,6 +1513,47 @@ color: #292929;
   margin-left: auto;
 }
 
+
+.single-chal-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+color: #292929;
+padding-top: 78px;
+}
+
+
+.single-chal-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #555555;
+}
+
+.single-cau-video-down-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+color: #292929;
+}
+
+.single-cau-video-down{
+  border-right: none !important;
+  border-left: none !important;
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 1500px) {
 
   .donate-text{
